@@ -1,9 +1,14 @@
 import './App.css'
 import Banner from './components/Banner'
 import Benefits from './components/Benefits'
+import CTASection from './components/CTASection'
+import Footer from './components/Footer'
 import NavBar from './components/NavBar'
 import Quote from './components/Quote'
 import Service from './components/Service'
+import Testimonial1 from './components/Testimonial1'
+
+
 
 function App() {
 
@@ -14,6 +19,9 @@ function App() {
       <Service/>
       <Quote/>
       <Benefits/>
+      <Testimonial1/>
+      <CTASection/>
+      <Footer/>
     </>
   )
 }
