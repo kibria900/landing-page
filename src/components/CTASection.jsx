@@ -3,16 +3,13 @@ import Button from './Button'
 
 const CTASection = () => {
   return (
-    <section className="bg-[#2d2d2d] text-white py-20 px-4">
+    <section id="Contact" className="bg-[#2d2d2d] text-white py-20 px-4">
       <div className="max-w-[600px] mx-auto text-center">
 
-        {/* Title */}
         <h2 className="text-white font-bold text-[28px] leading-[40px] mb-8">
           Ready To Get Insured? Submit Your Request <br />
           And Hear Back As Soon As Tomorroe.
         </h2>
-
-        {/* Input and Button */}
         <div className="flex flex-col sm:flex-row justify-center items-center gap-4 mb-5">
           <input
             type="email"
@@ -23,8 +20,6 @@ const CTASection = () => {
             Get started
           </button>
         </div>
-
-        {/* Small Text */}
         <p className="text-gray-400 text-[12px] leading-[18px]">
           Get a response tomorrow if you submit by 9pm today. If we received after <br />
           9pm will get a response the following day.

@@ -65,7 +65,7 @@ const Testimonial1 = () => {
                 />
                 <div>
                   <p className="font-semibold">{review.name}</p>
-                  <p className="text-sm text-green-500 italic">✔ Verified customer</p>
+                  <p className="text-sm  italic">✔ Verified customer</p>
                 </div>
               </div>
             </div>

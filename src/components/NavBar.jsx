@@ -16,9 +16,9 @@ const NavBar = () => {
                             <li className='text-[16px] text-[#676767]'> <a href="#home">Home</a></li>
                             <li className='text-[16px] text-[#676767]'> <a href="#benefits">Pages</a> </li>
                             <li className='text-[16px] text-[#676767]'> <a href="#servics">Services</a> </li>
-                            <li className='text-[16px] text-[#676767]'> <a href="">Portfolio</a> </li>
-                            <li className='text-[16px] text-[#676767]'> <a href="#quote">Blog</a> </li>
-                            <li className='text-[16px] text-[#676767]'> <a href=""> Contact Us</a></li>
+                            <li className='text-[16px] text-[#676767]'> <a href="#quote">Portfolio</a> </li>
+                            <li className='text-[16px] text-[#676767]'> <a href="#blog">Blog</a> </li>
+                            <li className='text-[16px] text-[#676767]'> <a href="#Contact"> Contact Us</a></li>
                         </ul>
                     </div>
                     <div>

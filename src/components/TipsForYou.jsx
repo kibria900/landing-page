@@ -5,8 +5,8 @@ import Pic2 from '../assets/pic2.png';
 
 const TipsForYou = () => {
   return (
-    <section className="bg-white py-16 px-4 md:px-10 text-center">
-      {/* Title Section */}
+    <section id="blog" className="bg-white py-16 px-4 md:px-10 text-center">
+      
       <p className="text-[#85C872] text-sm font-semibold tracking-widest uppercase mb-2">
         Our Tips For You
       </p>
@@ -17,9 +17,9 @@ const TipsForYou = () => {
         We share common trends, strategies ideas, opinion, short & log stories from the team behind company
       </p>
 
-      {/* Card Section */}
+      
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-7xl mx-auto">
-        {/* Card 1 */}
+       
         <div className="rounded-lg overflow-hidden">
           <img
             src={Pic}
@@ -28,7 +28,7 @@ const TipsForYou = () => {
           />
         </div>
 
-        {/* Card 2 with Text */}
+        
         <div className="bg-white rounded-lg shadow-md hover:shadow-lg transition-all duration-300 p-6 flex flex-col items-start text-left">
           <img
             src={Pic1}
@@ -43,7 +43,7 @@ const TipsForYou = () => {
           </p>
         </div>
 
-        {/* Card 3 */}
+       
         <div className="rounded-lg overflow-hidden">
           <img
             src={Pic2}
