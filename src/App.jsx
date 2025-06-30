@@ -7,6 +7,7 @@ import NavBar from './components/NavBar'
 import Quote from './components/Quote'
 import Service from './components/Service'
 import Testimonial1 from './components/Testimonial1'
+import TipsForYou from './components/TipsForYou'
 
 
 
@@ -20,6 +21,7 @@ function App() {
       <Quote/>
       <Benefits/>
       <Testimonial1/>
+      <TipsForYou/>
       <CTASection/>
       <Footer/>
     </>
