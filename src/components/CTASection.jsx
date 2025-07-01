@@ -3,7 +3,7 @@ import Button from './Button'
 
 const CTASection = () => {
   return (
-    <section id="Contact" className="bg-[#2d2d2d] text-white py-20 px-4">
+    <section id="Contact" className="bg-[#2d2d2d] text-white py-20 px-4 scroll-mt-20">
       <div className="max-w-[600px] mx-auto text-center">
 
         <h2 className="text-white font-bold text-[28px] leading-[40px] mb-8">

@@ -5,7 +5,7 @@ import Pic2 from '../assets/pic2.png';
 
 const TipsForYou = () => {
   return (
-    <section id="blog" className="bg-white py-16 px-4 md:px-10 text-center">
+    <section id="blog" className="bg-white py-16 px-4 md:px-10 text-center scroll-mt-20">
       
       <p className="text-[#85C872] text-sm font-semibold tracking-widest uppercase mb-2">
         Our Tips For You
@@ -16,10 +16,7 @@ const TipsForYou = () => {
       <p className="text-gray-500 max-w-2xl mx-auto mb-12 text-center text-[16px] leading-relaxed">
         We share common trends, strategies ideas, opinion, short & log stories from the team behind company
       </p>
-
-      
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-7xl mx-auto">
-       
         <div className="rounded-lg overflow-hidden">
           <img
             src={Pic}
@@ -27,8 +24,6 @@ const TipsForYou = () => {
             className="w-[370px] h-[460px] object-cover rounded-lg"
           />
         </div>
-
-        
         <div className="bg-white rounded-lg shadow-md hover:shadow-lg transition-all duration-300 p-6 flex flex-col items-start text-left">
           <img
             src={Pic1}
@@ -42,8 +37,6 @@ const TipsForYou = () => {
             We share common trends, strategies ideas, opinion, short & log stories from the team behind company.
           </p>
         </div>
-
-       
         <div className="rounded-lg overflow-hidden">
           <img
             src={Pic2}

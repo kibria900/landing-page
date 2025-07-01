@@ -5,7 +5,7 @@ import verify from '../assets/verify.svg'
 const Quote = () => {
     return (
         <>
-        <section id="quote" >
+        <section id="quote" className="scroll-mt-20" >
             <div className='container mx-auto mb-[130px]'>
                 <div className='bg-[url(./assets/quoteBG.png)] bg-cover bg-no-repeat w-full'>
                     <div className='py-[50px] pl-[45px]'>
